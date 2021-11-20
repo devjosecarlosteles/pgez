@@ -1,5 +1,13 @@
-const pg = require("pg")
+// const pg = require("pg")
 
-class Find {
+// class Find {
+//   constructor ({
+//     tableName,
+//     where,
+//     connection
+//   })
 
-}
+//   execute(connection, tableName, where) {
+//     connection
+//   }
+// }
