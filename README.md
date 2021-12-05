@@ -1,17 +1,5 @@
 # PGEZ
 
-## Conexão 
+Uma lib para trabalhar com postgress de forma ágil e simples!
 
-    const connect = pgez.connection({
-      host: "localhost",
-      port: 3333,
-      user: "jose",
-      pass: 123,
-      database: "banco"
-    })
-
-## Select
-
-Consulta simples
-
-    console.log(await connect.find({ tableName: "tabela1" }))1
+criado com muito amor por <a href="www.github.com/devjosecarlosteles">José Carlos Teles</a>
